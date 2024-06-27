@@ -1,7 +1,7 @@
 # Tatsiana Kashko
 ## Contacts:
 * *t.kashko@gmail.com*
-* feafania (discord)
+* *feafania (discord)*
 
 ## Profile:
 ![My picture](./Profile.jpg)
@@ -33,9 +33,10 @@ I solve problems of various scopes and levels and have the skills of a business 
 * Polish (B2)
 
 ## Sample code:
-[The first project in rs school] ()
+[The first project in rs school] (https://github.com/feafania/rsschool-cv/blob/gh-pages/cv.md)
 
-```Procedures 1c:
+**Procedures 1c**:
+```1c
 // ConvertCharset(InputFile, OutputFile, InitialEncoding = "utf-8", FinalEncoding = "windows-1251")
 //
 // Options:
