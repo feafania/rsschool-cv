@@ -35,7 +35,7 @@ I solve problems of various scopes and levels and have the skills of both a prog
 * Polish (B2).
 
 ## Code Examples:
-* [The first project in RS School](https://github.com/feafania/rsschool-cv/blob/gh-pages/cv.md)
+* [The first project in RS School](https://github.com/feafania/rsschool-cv/tree/gh-pages)
 
 * **Procedures 1c**:
 ```1c
