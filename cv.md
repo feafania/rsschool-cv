@@ -95,4 +95,5 @@ Procedure ConvertCharset(InputFile, OutputFile, InitialEncoding = "utf-8", Final
 	InputStream.Close();
 	
 EndProcedure // ConvertCharset()   
+
 ```
