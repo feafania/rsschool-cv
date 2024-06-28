@@ -1,39 +1,40 @@
 # Tatsiana Kashko
 ## Contacts:
-* *t.kashko@gmail.com*
-* *feafania (discord)*
+* **E-mail**: *t.kashko@gmail.com*
+* **discord**: *feafania*
+* **GitHub**: [*feafania*](https://github.com/feafania)
 
 ## Profile:
 ![My picture](./Profile.jpg)
-I solve problems of various scopes and levels and have the skills of a business analyst. I can independently explore the field of automation and build the logic of production and business processes.
+I solve problems of various scopes and levels and have the skills of both a programmer and a business analyst. I can independently explore the field of automation and build the logic of production and business processes.
 
 ## Skills:
-* 1с-language (25 years)
+* 1с-language
 * VB-Script and VBA
 * html, xml
 * Wordpress
 * VS-Code
 
 ## Professional Experience:
-* Automation of business from scratch: JSC Skidel Sugar Refinery, PT LLC Taifun Hrodna, J LLC ZOV-Lenevromebel. 
+* **Automation of business from scratch**: JSC Skidel Sugar Refinery, PT LLC Taifun Hrodna, J LLC ZOV-Lenevromebel. 
 * Administration of Windows domains, Active Directory. 
 * Teaching at Institute of Postgraduate Education at Hrodna State University: 
-* Data structures;
-* Economic and mathematical methods and models;
-* Automated business systems.
+	* Data structures;
+	* Economic and mathematical methods and models;
+	* Automated business systems.
 
 ## Education:
-* **Yanka Kupala Hrodna State University**, specialty "Economic Cybernetics", specialization "Software engineering and technologies";
-* Postgraduate course of Belarusian State University "Mathematical Cybernetics";
-* Institute of Postgraduate Education at Hrodna State University, specialty "English language teacher".
+* Yanka Kupala Hrodna State University, specialty **"Economic Cybernetics"**, specialization "Software engineering and technologies";
+* Postgraduate course of Belarusian State University **"Mathematical Cybernetics"**;
+* Institute of Postgraduate Education at Hrodna State University, specialty **"English language teacher"**.
 
 ## Languages:
-* Belarusian (native)
-* English (B2, I've been living in the UK for 7 months)
-* Polish (B2)
+* Belarusian (native);
+* English (B2, I've been living in the UK for 7 months);
+* Polish (B2).
 
-## Sample code:
-[The first project in rs school] (https://github.com/feafania/rsschool-cv/blob/gh-pages/cv.md)
+## Code Examples:
+[The first project in rs school](https://GITHUB-feafania.github.io/rsschool-cv/cv)
 
 **Procedures 1c**:
 ```1c
