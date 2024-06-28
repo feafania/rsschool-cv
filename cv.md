@@ -6,7 +6,6 @@
 
 ## Profile:
 <img src="./Profile.jpg" alt="My picture" width="126" height="126">
-![My picture](./Profile.jpg)
 
 I solve problems of various scopes and levels and have the skills of both a programmer and a business analyst. I can independently explore the field of automation and build the logic of production and business processes.
 
@@ -69,13 +68,13 @@ Procedure ConvertCharset(InputFile, OutputFile, InitialEncoding = "utf-8", Final
 		EndIf;
 	EndTry;
 
-	// Read the content from the input file with Windows-1251 encoding
+	// Read the content from the input file with initial encoding
 	InputStream = CreateObject("ADODB.Stream");
 	InputStream.Open();
 	InputStream.Charset = InitialEncoding;
 	InputStream.LoadFromFile(InputFile);
 	
-	// Write the content to the output file with UTF-8 encoding    
+	// Write the content to the output file with final encoding    
 	Try
 		OutputStream = CreateObject("ADODB.Stream");
 		OutputStream.Open();
