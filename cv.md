@@ -5,7 +5,9 @@
 * **GitHub**: [*feafania*](https://github.com/feafania)
 
 ## Profile:
+<img src="./Profile.jpg" alt="My picture" width="126" height="126">
 ![My picture](./Profile.jpg)
+
 I solve problems of various scopes and levels and have the skills of both a programmer and a business analyst. I can independently explore the field of automation and build the logic of production and business processes.
 
 ## Skills:
@@ -16,7 +18,7 @@ I solve problems of various scopes and levels and have the skills of both a prog
 * VS-Code
 
 ## Professional Experience:
-* **Automation of business from scratch**: JSC Skidel Sugar Refinery, PT LLC Taifun Hrodna, J LLC ZOV-Lenevromebel. 
+* Automation of business from scratch: **JSC Skidel Sugar Refinery, PT LLC Taifun Hrodna, J LLC ZOV-Lenevromebel**. 
 * Administration of Windows domains, Active Directory. 
 * Teaching at Institute of Postgraduate Education at Hrodna State University: 
 	* Data structures;
@@ -34,9 +36,9 @@ I solve problems of various scopes and levels and have the skills of both a prog
 * Polish (B2).
 
 ## Code Examples:
-[The first project in rs school](https://GITHUB-feafania.github.io/rsschool-cv/cv)
+* [The first project in RS School](https://github.com/feafania/rsschool-cv/blob/gh-pages/cv.md)
 
-**Procedures 1c**:
+* **Procedures 1c**:
 ```1c
 // ConvertCharset(InputFile, OutputFile, InitialEncoding = "utf-8", FinalEncoding = "windows-1251")
 //
