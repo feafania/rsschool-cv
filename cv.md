@@ -6,6 +6,7 @@
 
 ## Profile:
 <img src="./Profile.jpg" alt="My picture" width="126" height="126">
+<!-- ![My picture](./Profile.jpg) -->
 
 I solve problems of various scopes and levels and have the skills of both a programmer and a business analyst. I can independently explore the field of automation and build the logic of production and business processes.
 
@@ -44,8 +45,8 @@ I solve problems of various scopes and levels and have the skills of both a prog
 // Options:
 //  InputFile - original file
 //  OutputFile - resulting file
-//  InitialEncoding - Initial Encoding
-//  FinalEncoding - Final Encoding
+//  InitialEncoding - initial Encoding
+//  FinalEncoding - final Encoding
 //
 // Description:
 //	Converts a file from one encoding to another
