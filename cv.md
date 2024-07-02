@@ -5,7 +5,7 @@
 * **GitHub**: [*feafania*](https://github.com/feafania)
 
 ## Profile:
-<img src="./Profile.jpg" alt="My picture" width="126" height="126">
+<img src="./img/Profile.jpg" alt="My picture" width="126" height="126">
 <!-- ![My picture](./Profile.jpg) -->
 
 I solve problems of various scopes and levels and have the skills of both a programmer and a business analyst. I can independently explore the field of automation and build the logic of production and business processes.
