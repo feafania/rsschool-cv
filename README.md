@@ -1,1 +1,1 @@
-https://feafania.github.io/rsschool-cv/cv
+https://feafania.github.io/rsschool-cv/
