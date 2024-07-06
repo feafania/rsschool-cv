@@ -1,34 +1,46 @@
 # Tatsiana Kashko
+
 ## Contacts:
 * **E-mail**: *t.kashko@gmail.com*
-* **discord**: *feafania*
 * **GitHub**: [*feafania*](https://github.com/feafania)
+* **discord**: *feafania*
 
-## Profile:
-<img src="./img/Profile.jpg" alt="My picture" width="126" height="126">
-<!-- ![My picture](./Profile.jpg) -->
+## Summary:
+<img src="./assets/img/avatar.jpg" alt="My picture" width="126" height="126">
+<!-- ![My picture](./avatar.jpg) -->
 
 I solve problems of various scopes and levels and have the skills of both a programmer and a business analyst. I can independently explore the field of automation and build the logic of production and business processes.
 
 ## Skills:
-* 1с-language
-* VB-Script and VBA
-* html, xml
-* Wordpress
-* VS-Code
+* 1с-language;
+* MS SQL;
+* VB-Script and VBA;
+* html, xml;
+* Wordpress;
+* VS-Code.
 
 ## Professional Experience:
-* Automation of business from scratch: **JSC Skidel Sugar Refinery, PT LLC Taifun Hrodna, J LLC ZOV-Lenevromebel**. 
+* Automation of business from scratch. 
 * Administration of Windows domains, Active Directory. 
 * Teaching at Institute of Postgraduate Education at Hrodna State University: 
 	* Data structures;
 	* Economic and mathematical methods and models;
 	* Automated business systems.
 
+## Projects:
+* JSC Skidel Sugar Refinery - automation of accounting; 
+* PT LLC Taifun Hrodna - complete automation;
+* J LLC ZOV-Lenevromebel - automation of accounting and business process. 
+
 ## Education:
 * Yanka Kupala Hrodna State University, specialty **"Economic Cybernetics"**, specialization "Software engineering and technologies";
 * Postgraduate course of Belarusian State University **"Mathematical Cybernetics"**;
 * Institute of Postgraduate Education at Hrodna State University, specialty **"English language teacher"**.
+
+## Courses:
+* HTML and hosting;
+* Basic HTML & CSS;
+* Wordpress.
 
 ## Languages:
 * Belarusian (native);
