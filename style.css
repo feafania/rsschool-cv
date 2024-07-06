@@ -19,6 +19,7 @@
 
 :root {
     --main-color: #0b374d;
+    --rib-color: #6f92d2;
 }
 
 * {
@@ -52,7 +53,7 @@ body {
 }
 
 .header {
-    background-color: #6f92d2;
+    background-color: var(--rib-color);
 }
 
 .nav-list {
@@ -168,11 +169,11 @@ body {
     width: 15%;
 }
 
-.section-contacts-sign {
+.section-contacts-logo {
     width: 20%;
 }
 
-.section-contacts-sign-name {
+.section-contacts-logo-name {
     flex-grow: 1;
     text-align: left;
 }
@@ -246,4 +247,17 @@ body {
 .section-1ccode-code-strings-numbers {
     color: #000000;
     /* Color for strings and numbers*/
+}
+footer {
+    background-color: var(--rib-color);
+}
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.footer-rsschool-logo {
+    width: 60px
 }
