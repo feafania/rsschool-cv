@@ -24,8 +24,8 @@
 
 * {
     box-sizing: border-box;
-    /*border: none;*/
-    border: 1px solid red;
+    border: none;
+    /*border: 1px solid red;*/
 }
 
 html {
@@ -85,10 +85,13 @@ body {
 }
 
 .section {
-    width: 50%;
+    width: 45%;
     padding: 20px;
     padding-bottom: 35px;
     align-items: center;
+    border-bottom: 3px solid var(--rib-color);
+    margin: 0 auto;
+
 }
 
 section a {
@@ -100,16 +103,10 @@ section a {
     color: #649fe7;
 }
 
-@media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
-}
 
 .section h2 {
     color: #6897b0;
 }
-
 
 .section-profile {
     display: flex;
@@ -121,6 +118,7 @@ section a {
     padding: 20px 50px;
     width: 100%;
     text-align: center;
+    border-bottom: none;
 }
 
 .section-profile-logo {
@@ -212,7 +210,10 @@ section a {
 }
 
 .section-code {
-    width: 100%;
+    width: 95%;
+    border-bottom: none;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .section-code-pre {
@@ -289,4 +290,20 @@ footer a {
 .footer-rsschool-logo {
     width: 100px;
     padding-right: 10px;
+}
+@media (max-width: 768px) {
+    
+    .section,
+    .section-code {
+        width: 100%;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
 }
