@@ -24,8 +24,8 @@
 
 * {
     box-sizing: border-box;
-    border: none;
-    /*border: 1px solid red;*/
+    /*border: none;*/
+    border: 1px solid red;
 }
 
 html {
@@ -51,6 +51,7 @@ body {
 
 .container {
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header {
@@ -70,7 +71,7 @@ body {
     color: #ffffff;
     line-height: 40px;
     font-size: 16px;
-    transition: 0.3s;
+    transition: color 0.3s; /* Плавный переход для цвета */
 }
 
 .nav-link:hover {
@@ -92,6 +93,7 @@ body {
 
 section a {
     color: #220e6b;
+    transition: color 0.3s; 
 }
 
 .section a:hover {
@@ -260,6 +262,7 @@ footer {
 footer a {
     text-decoration: none;
     color: #ffffff;
+    transition: color 0.3s; 
 }
 
 .footer a:hover {
@@ -278,7 +281,7 @@ footer a {
 .footer-rsschool {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-between;
     text-align: right;
 
 }
