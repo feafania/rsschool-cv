@@ -168,7 +168,7 @@
                     </li>
                     <li class="section-education-item">
                         Institute of Postgraduate Education at Hrodna State University, specialty <span
-                            class="education-speciality">"English language teacher"*</span>
+                            class="education-speciality">"English language teacher"</span>
                     </li>
                 </ul>
             </section>
@@ -259,9 +259,9 @@
                     OleExSup<span class="section-1ccode-code-keywords">.</span>InvokeOLEMethod<span class="section-1ccode-code-keywords">(</span>OutputStream<span class="section-1ccode-code-keywords">,</span> <span class="section-1ccode-code-strings-numbers">"SaveToFile"</span><span class="section-1ccode-code-keywords">,</span> OutputFile<span class="section-1ccode-code-keywords">,</span> <span class="section-1ccode-code-strings-numbers">2</span><span class="section-1ccode-code-keywords">);</span>
                 <span class="section-1ccode-code-keywords">Else</span>
                     OutputStream<span class="section-1ccode-code-keywords">.</span>WriteText<span class="section-1ccode-code-keywords">(</span>InputStream<span class="section-1ccode-code-keywords">.</span>ReadText<span class="section-1ccode-code-keywords">());</span>
-                    OutputStream<span class="section-1ccode-code-keywords">.</span>SaveToFile<span class="section-1ccode-code-keywords">(</span>OutputFile<span class="section-1ccode-code-keywords">,</span> <span class="section-1ccode-code-strings-numbers">2</span><span class="section-1ccode-code-keywords">);</span> 
-                    OutputStream<span class="section-1ccode-code-keywords">.</span>Close<span class="section-1ccode-code-keywords">();
-                EndIf;
+                    OutputStream<span class="section-1ccode-code-keywords">.</span>SaveToFile<span class="section-1ccode-code-keywords">(</span>OutputFile<span class="section-1ccode-code-keywords">,</span> <span class="section-1ccode-code-strings-numbers">2</span><span class="section-1ccode-code-keywords">);
+                EndIf;</span>
+                OutputStream<span class="section-1ccode-code-keywords">.</span>Close<span class="section-1ccode-code-keywords">();
             Except   
                 Message(</span>GetErrorDescription<span class="section-1ccode-code-keywords">());
             EndTry;</span>
@@ -281,13 +281,12 @@
             <a href="https://github.com/feafania" class="footer-github">GitHub: feafania</a>
             <span class="footer-year">2024</span>
             <span class="footer-rsschool">
-                <img src="./assets/svg/rs-school-logo.svg" alt="rsschool" class="footer-rsschool-logo">
-                <a target="_blank" href="https://rs.school/courses/javascript-ru" rel="noopener noreferrer">RS
-                    School</a>
+                <a target="_blank" href="https://rs.school/courses/javascript-ru" rel="noopener noreferrer">R
+                    <img src="./assets/svg/rs-school-logo.svg" alt="rsschool" class="footer-rsschool-logo"></a>
             </span>
         </div>
     </footer>
-    
+
 </body>
 
 </html>
