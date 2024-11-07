@@ -13,11 +13,15 @@ I solve problems of various scopes and levels and have the skills of both a prog
 
 ## Skills:
 * 1с-language;
+* JavaScript;
+* Git;
 * MS SQL;
 * VB-Script and VBA;
-* html, xml;
+* html, css, xml;
+* Figma;
 * Wordpress;
-* VS-Code.
+* VS-Code;
+* WebStorm.
 
 ## Professional Experience:
 * Automation of business from scratch. 
@@ -38,6 +42,7 @@ I solve problems of various scopes and levels and have the skills of both a prog
 * Institute of Postgraduate Education at Hrodna State University, specialty **"English language teacher"**.
 
 ## Courses:
+* The Rolling Scopes School JS/FE Pre-School 2024Q2 (JavaScript)
 * HTML and hosting;
 * Basic HTML & CSS;
 * Wordpress.
