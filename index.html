@@ -78,7 +78,7 @@
                     Summary
                 </h2>
                 <p class="section-summary-content">
-                    I solve problems of various scopes and levels and have the skills of both a programmer and a
+                    I solve problems of various scopes and levels and have the skills of both a programmer &amp; a
                     business analyst. I can independently explore the field of automation and build the logic of
                     production and business processes.
                 </p>
@@ -136,7 +136,7 @@
                 </h2>
                 <ul class="section-skills-list section-list">
                     <li class="section-skills-item">
-                        1с-language
+                        1c-language
                     </li>
                     <li class="section-skills-item">
                         MS SQL
@@ -159,16 +159,16 @@
                 </h2>
                 <ul class="section-education-list section-list">
                     <li class="section-education-item">
-                        Yanka Kupala Hrodna State University, specialty <span class="education-speciality">"Economic
-                            Cybernetics"</span>, specialization "Software engineering and technologies"
+                        Yanka Kupala Hrodna State University, specialty <span class="education-speciality">&quot;Economic
+                            Cybernetics&quot;</span>, specialization &quot;Software engineering and technologies&quot;
                     </li>
                     <li class="section-education-item">
                         Postgraduate course of Belarusian State University <span
-                            class="education-speciality">"Mathematical Cybernetics"</span>
+                            class="education-speciality">&quot;Mathematical Cybernetics&quot;</span>
                     </li>
                     <li class="section-education-item">
                         Institute of Postgraduate Education at Hrodna State University, specialty <span
-                            class="education-speciality">"English language teacher"</span>
+                            class="education-speciality">&quot;English language teacher&quot;</span>
                     </li>
                 </ul>
             </section>
@@ -234,27 +234,27 @@
                 <span class="section-1ccode-code-keywords">If LoadExternalComponent(IBDir()+</span><span class="section-1ccode-code-strings-numbers">"ExtForms\OleExSup.dll"</span><span class="section-1ccode-code-keywords">)=</span><span class="section-1ccode-code-strings-numbers">0</span> <span class="section-1ccode-code-keywords">Then
                     If LoadExternalComponent(</span>"OleExSup.dll"<span class="section-1ccode-code-keywords">)=</span><span class="section-1ccode-code-strings-numbers">1</span> <span class="section-1ccode-code-keywords">Then</span>
                         ObjOleExSupCreated <span class="section-1ccode-code-keywords">= </span><span class="section-1ccode-code-strings-numbers">1</span><span class="section-1ccode-code-keywords">;
-                    EndIf;   
+                    EndIf;
                 Else</span>
                     ObjOleExSupCreated <span class="section-1ccode-code-keywords">= </span><span class="section-1ccode-code-strings-numbers">1</span><span class="section-1ccode-code-keywords">;
-                EndIf;    
+                EndIf;
                 If</span> ObjOleExSupCreated <span class="section-1ccode-code-keywords">= </span><span class="section-1ccode-code-strings-numbers">1</span> <span class="section-1ccode-code-keywords">Then</span>
-                    OleExSup <span class="section-1ccode-code-keywords">= CreateObject(</span><span class="section-1ccode-code-strings-numbers">"OleExSup"</span><span class="section-1ccode-code-keywords">); 
+                    OleExSup <span class="section-1ccode-code-keywords">= CreateObject(</span><span class="section-1ccode-code-strings-numbers">"OleExSup"</span><span class="section-1ccode-code-keywords">);
                 EndIf;
             EndTry;</span>
-        
+
             <span class="section-1ccode-code-comments">// Read the content from the input file with initial encoding</span>
             InputStream <span class="section-1ccode-code-keywords">= CreateObject(</span><span class="section-1ccode-code-strings-numbers">"ADODB.Stream"</span><span class="section-1ccode-code-keywords">);</span>
             InputStream<span class="section-1ccode-code-keywords">.</span>Open<span class="section-1ccode-code-keywords">();</span>
             InputStream<span class="section-1ccode-code-keywords">.</span>Charset<span class="section-1ccode-code-keywords">= </span>InitialEncoding<span class="section-1ccode-code-keywords">;</span>
             InputStream<span class="section-1ccode-code-keywords">.</span>LoadFromFile<span class="section-1ccode-code-keywords">(</span>InputFile<span class="section-1ccode-code-keywords">);</span>
-            
-            <span class="section-1ccode-code-comments">// Write the content to the output file with final encoding  </span>  
+
+            <span class="section-1ccode-code-comments">// Write the content to the output file with final encoding  </span>
             <span class="section-1ccode-code-keywords">Try</span>
                 OutputStream <span class="section-1ccode-code-keywords">= CreateObject(</span><span class="section-1ccode-code-strings-numbers">"ADODB.Stream"</span><span class="section-1ccode-code-keywords">);</span>
                 OutputStream<span class="section-1ccode-code-keywords">.</span>Open<span class="section-1ccode-code-keywords">();</span>
                 OutputStream<span class="section-1ccode-code-keywords">.</span>Charset <span class="section-1ccode-code-keywords">= </span>FinalEncoding<span class="section-1ccode-code-keywords">;</span>
-                <span class="section-1ccode-code-keywords">If</span> ObjOleExSupCreated <span class="section-1ccode-code-keywords">= </span><span class="section-1ccode-code-strings-numbers">1</span> <span class="section-1ccode-code-keywords">Then  </span>  
+                <span class="section-1ccode-code-keywords">If</span> ObjOleExSupCreated <span class="section-1ccode-code-keywords">= </span><span class="section-1ccode-code-strings-numbers">1</span> <span class="section-1ccode-code-keywords">Then  </span>
                     OleExSup<span class="section-1ccode-code-keywords">.</span>InvokeOLEMethod<span class="section-1ccode-code-keywords">(</span>OutputStream<span class="section-1ccode-code-keywords">,</span> <span class="section-1ccode-code-strings-numbers">"WriteText"</span><span class="section-1ccode-code-keywords">,</span> InputStream<span class="section-1ccode-code-keywords">.</span>ReadText<span class="section-1ccode-code-keywords">());</span>
                     OleExSup<span class="section-1ccode-code-keywords">.</span>InvokeOLEMethod<span class="section-1ccode-code-keywords">(</span>OutputStream<span class="section-1ccode-code-keywords">,</span> <span class="section-1ccode-code-strings-numbers">"SaveToFile"</span><span class="section-1ccode-code-keywords">,</span> OutputFile<span class="section-1ccode-code-keywords">,</span> <span class="section-1ccode-code-strings-numbers">2</span><span class="section-1ccode-code-keywords">);</span>
                 <span class="section-1ccode-code-keywords">Else</span>
@@ -262,12 +262,12 @@
                     OutputStream<span class="section-1ccode-code-keywords">.</span>SaveToFile<span class="section-1ccode-code-keywords">(</span>OutputFile<span class="section-1ccode-code-keywords">,</span> <span class="section-1ccode-code-strings-numbers">2</span><span class="section-1ccode-code-keywords">);
                 EndIf;</span>
                 OutputStream<span class="section-1ccode-code-keywords">.</span>Close<span class="section-1ccode-code-keywords">();
-            Except   
+            Except
                 Message(</span>GetErrorDescription<span class="section-1ccode-code-keywords">());
             EndTry;</span>
             InputStream<span class="section-1ccode-code-keywords">.</span>Close<span class="section-1ccode-code-keywords">();
-            
-    EndProcedure </span><span class="section-1ccode-code-comments">// ConvertCharset() </span>  
+
+    EndProcedure </span><span class="section-1ccode-code-comments">// ConvertCharset() </span>
                             </code>
                        </pre>
                     </li>
