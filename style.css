@@ -96,7 +96,7 @@ body {
 
 section a {
     color: #220e6b;
-    transition: color 0.3s; 
+    transition: color 0.3s;
 }
 
 .section a:hover {
@@ -263,7 +263,7 @@ footer {
 footer a {
     text-decoration: none;
     color: #ffffff;
-    transition: color 0.3s; 
+    transition: color 0.3s;
 }
 
 .footer a:hover {
@@ -292,7 +292,6 @@ footer a {
     padding-right: 10px;
 }
 @media (max-width: 768px) {
-    
     .section,
     .section-code {
         width: 100%;
