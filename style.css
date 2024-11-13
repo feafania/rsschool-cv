@@ -1,19 +1,19 @@
 /* custom fonts */
 @font-face {
     font-family: "Roboto";
-    src: url("assets/fonts/RobotoThin.ttf") format('truetype');
+    src: url("assets/fonts/Roboto-Thin.ttf") format('truetype');
     font-weight: 100;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url("assets/fonts/RobotoRegular.ttf") format('truetype');
+    src: url("assets/fonts/Roboto-Regular.ttf") format('truetype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/RobotoBold.ttf') format('truetype');
+    src: url('assets/fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: 700;
 }
 
@@ -103,6 +103,9 @@ section a {
     color: #649fe7;
 }
 
+.section a:active {
+    color: #0808cf;
+}
 
 .section h2 {
     color: #6897b0;
@@ -209,6 +212,13 @@ section a {
     font-style: italic;
 }
 
+.section-projects-item_link {
+    text-decoration: none;
+}
+
+.section-projects-item_link:visited {
+    color: #222259;
+}
 .section-code {
     width: 95%;
     border-bottom: none;
@@ -216,9 +226,19 @@ section a {
     margin: 0 auto;
 }
 
+.section-code-list {
+    list-style-type: none;
+}
+
+
 .section-code-pre {
     padding: 0;
     margin: 0;
+    max-width: 100%;
+    white-space: pre; /* Захоўвае фарматаванне тэксту */
+    word-wrap: normal; /* Не дазваляе разбіваць словы */
+    width: 100%;
+    overflow-x: auto;
 }
 
 .section-1ccode-code {
@@ -232,7 +252,7 @@ section a {
     /* Color for main text */
     padding: 10px;
     /* Padding */
-    overflow-x: auto;
+    overflow-x: scroll;
     /* Enable horizontal scroll if needed */
 }
 
@@ -279,7 +299,7 @@ footer a {
 
 }
 
-.footer-rsschool {
+.footer__rsschool {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

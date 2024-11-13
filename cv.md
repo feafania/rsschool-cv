@@ -12,16 +12,14 @@
 I solve problems of various scopes and levels and have the skills of both a programmer and a business analyst. I can independently explore the field of automation and build the logic of production and business processes.
 
 ## Skills:
-* 1с-language;
 * JavaScript;
-* Git;
-* MS SQL;
+* GitHub;
+* MS SQL, MongoDB;
+* 1с-language;
 * VB-Script and VBA;
 * html, css, xml;
-* Figma;
-* Wordpress;
-* VS-Code;
-* WebStorm.
+* Figma, Wordpress;
+* VSCode, WebStorm.
 
 ## Professional Experience:
 * Automation of business from scratch. 
@@ -34,7 +32,10 @@ I solve problems of various scopes and levels and have the skills of both a prog
 ## Projects:
 * JSC Skidel Sugar Refinery - automation of accounting; 
 * PT LLC Taifun Hrodna - complete automation;
-* J LLC ZOV-Lenevromebel - automation of accounting and business process. 
+* J LLC ZOV-Lenevromebel - automation of accounting and business processж
+* [RS School: Shelter](https://rolling-scopes-school.github.io/feafania-JSFEPRESCHOOL2024Q2/shelter);
+* [RS School: Audio-player](https://rolling-scopes-school.github.io/feafania-JSFEPRESCHOOL2024Q2/js30-audio-player);
+* [RS School: Random game](https://rolling-scopes-school.github.io/feafania-JSFEPRESCHOOL2024Q2/js30-random-game). 
 
 ## Education:
 * Yanka Kupala Hrodna State University, specialty **"Economic Cybernetics"**, specialization "Software engineering and technologies";
