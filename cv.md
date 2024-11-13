@@ -54,9 +54,22 @@ I solve problems of various scopes and levels and have the skills of both a prog
 * Polish (B2).
 
 ## Code Examples:
-* [The first project in RS School](https://github.com/feafania/rsschool-cv/tree/gh-pages)
+* **JavaScript**:
+
+```
+     function rgb(r, g, b) {
+        function formattedString(b) {
+            if (b.length === 1) {return `0${b.toUpperCase()}`}
+            else {return b.toUpperCase()};
+        }
+        function roundNumber(b) {
+          return Math.min(Math.max(b,0),255)
+        }
+        return `${formattedString(roundNumber(r).toString(16))}${formattedString(roundNumber(g).toString(16))}${formattedString(roundNumber(b).toString(16))}`;
+    }
 
 * **Procedures 1c**:
+```
 
 ```
 // ConvertCharset(InputFile, OutputFile, InitialEncoding = "utf-8", FinalEncoding = "windows-1251")
