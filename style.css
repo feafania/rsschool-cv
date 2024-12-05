@@ -1,0 +1,328 @@
+/* custom fonts */
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/fonts/Roboto-Thin.ttf") format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/fonts/Roboto-Regular.ttf") format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+:root {
+    --main-color: #0b374d;
+    --rib-color: #6f92d2;
+}
+
+* {
+    box-sizing: border-box;
+    border: none;
+    /*border: 1px solid red;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* font use */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--rib-color);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 16px;
+    transition: color 0.3s; /* Плавный переход для цвета */
+}
+
+.nav-link:hover {
+    color: #4d2323;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: 45%;
+    padding: 20px;
+    padding-bottom: 35px;
+    align-items: center;
+    border-bottom: 3px solid var(--rib-color);
+    margin: 0 auto;
+
+}
+
+section a {
+    color: #220e6b;
+    transition: color 0.3s;
+}
+
+.section a:hover {
+    color: #649fe7;
+}
+
+.section a:active {
+    color: #0808cf;
+}
+
+.section h2 {
+    color: #6897b0;
+}
+
+.section-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 10%;
+    align-items: center;
+    padding: 20px 50px;
+    width: 100%;
+    text-align: center;
+    border-bottom: none;
+}
+
+.section-profile-logo {
+    border-radius: 30%;
+    text-align: right;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.section-profile-name {
+    text-align: left;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.section-profile-job {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+}
+
+.section-list {
+    list-style-type: circle;
+}
+
+.section-contacts-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section-contacts-item {
+    display: flex;
+    gap: 10px;
+}
+
+.section-contacts-item a {
+    flex-grow: 1;
+    text-align: left;
+    text-decoration: none;
+}
+
+.section-contacts-label {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 40%;
+    text-align: left;
+}
+
+.section-contacts-logo {
+    width: 40px;
+}
+
+.section-contacts-logo-name {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.section-languages-item,
+.section-code-item,
+.section-courses-item,
+.section-education-item,
+.section-projects-item,
+.section-experience-item,
+.section-experience-sublist-item,
+.section-skills-item {
+    padding: 0;
+    padding-left: 20px;
+}
+
+.section-experience-sublist {
+    list-style-type: "-";
+}
+
+.language-level {
+    font-weight: bold;
+}
+
+.education-speciality {
+    /*font-weight: bold;*/
+    font-style: italic;
+}
+
+.section-projects-item_link {
+    text-decoration: none;
+}
+
+.section-projects-item_link:visited {
+    color: #222259;
+}
+.section-code {
+    width: 95%;
+    border-bottom: none;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.section-code-list {
+    list-style-type: none;
+}
+
+
+.section-code-pre {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    white-space: pre; /* Захоўвае фарматаванне тэксту */
+    word-wrap: normal; /* Не дазваляе разбіваць словы */
+    width: 100%;
+    overflow-x: auto;
+}
+
+.section-1ccode-code {
+    font-family: 'Courier', Arial, monospace;
+    /* Monospaced font */
+    font-size: 16px;
+    /* Font size */
+    line-height: 1.5;
+    /* Line height */
+    color: #0000FF;
+    /* Color for main text */
+    padding: 10px;
+    /* Padding */
+    overflow-x: scroll;
+    /* Enable horizontal scroll if needed */
+}
+
+/* Additional styles for syntax highlighting */
+.section-1ccode-code-keywords {
+    color: #FF0000;
+    /* Color for keywords */
+    font-weight: bold;
+    /* Bold font weight for keywords */
+}
+
+.section-1ccode-code-comments {
+    color: #008000;
+    /* Color for comments */
+}
+
+.section-1ccode-code-strings-numbers {
+    color: #000000;
+    /* Color for strings and numbers*/
+}
+
+footer {
+    background-color: var(--rib-color);
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #492323;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+
+}
+
+.footer__rsschool {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+
+}
+
+.footer-rsschool-logo {
+    width: 100px;
+    padding-right: 10px;
+}
+@media (max-width: 768px) {
+    .section,
+    .section-code {
+        width: 100%;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+}
