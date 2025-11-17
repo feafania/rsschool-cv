@@ -1,77 +1,78 @@
 # Tatsiana Kashko
 
-## Contacts:
-* **E-mail**: *t.kashko@gmail.com*
-* **GitHub**: [*feafania*](https://github.com/feafania)
-* **discord**: *feafania*
+## Contacts
+* **E-mail**: t.kashko@gmail.com
+* **GitHub**: [feafania](https://github.com/feafania)
+* **Discord**: feafania
 
-## Summary:
-<img src="./assets/img/avatar.jpg" alt="My picture" width="126" height="126">
-<!-- ![My picture](./avatar.jpg) -->
+## Summary
+A specialist with strong analytical and programming skills, able to handle tasks of varying complexity. Experienced in researching automation domains and designing logical structures for production and business processes.
 
-I solve problems of various scopes and levels and have the skills of both a programmer and a business analyst. I can independently explore the field of automation and build the logic of production and business processes.
+[//]: # (![My picture]&#40;./assets/img/avatar.jpg&#41;)
 
-## Skills:
-* JavaScript;
-* GitHub;
-* MS SQL, MongoDB;
-* 1с-language;
-* VB-Script and VBA;
-* html, css, xml;
-* Figma, Wordpress;
-* VSCode, WebStorm.
+## Skills
+* **Frontend**: JavaScript, TypeScript, HTML, CSS, Figma
+* **Backend**: Node.js, Express
+* **Databases**: MS SQL, MongoDB
+* **Tools**: GitHub, VS Code, WebStorm
 
-## Professional Experience:
-* Automation of business from scratch. 
-* Administration of Windows domains, Active Directory. 
-* Teaching at Institute of Postgraduate Education at Hrodna State University: 
-	* Data structures;
-	* Economic and mathematical methods and models;
-	* Automated business systems.
+## Professional Experience
+* Designed and implemented end-to-end business automation systems
+* Managed Windows domain infrastructures and Active Directory services
+* Delivered academic courses at the Institute of Postgraduate Education (Hrodna State University):
+	* Data Structures
+	* Economic & Mathematical Models
+	* Business Automation Systems
 
-## Projects:
-* JSC Skidel Sugar Refinery - automation of accounting; 
-* PT LLC Taifun Hrodna - complete automation;
-* J LLC ZOV-Lenevromebel - automation of accounting and business processж
-* [RS School: Shelter](https://rolling-scopes-school.github.io/feafania-JSFEPRESCHOOL2024Q2/shelter);
-* [RS School: Audio-player](https://rolling-scopes-school.github.io/feafania-JSFEPRESCHOOL2024Q2/js30-audio-player);
-* [RS School: Random game](https://rolling-scopes-school.github.io/feafania-JSFEPRESCHOOL2024Q2/js30-random-game). 
+## Projects
+* JSC Skidel Sugar Refinery – automation of accounting
+* PT LLC Taifun Hrodna – full-cycle automation
+* J LLC ZOV-Lenevromebel – automation of accounting and business processes
 
-## Education:
-* Yanka Kupala Hrodna State University, specialty **"Economic Cybernetics"**, specialization "Software engineering and technologies";
-* Postgraduate course of Belarusian State University **"Mathematical Cybernetics"**;
-* Institute of Postgraduate Education at Hrodna State University, specialty **"English language teacher"**.
+### RS School Projects
+* [RS School: Shelter](https://feafania.github.io/RSSchool/shelter/)
+* [RS School: Christmas Shop](https://feafania.github.io/RSSchool/christmas-shop/)
+* [RS School: Async Race](https://github.com/feafania/RSSchool/tree/async-race)
+* [RS School: Hangman](https://github.com/feafania/RSSchool/tree/hangman)
+* [RS School: News API](https://github.com/feafania/RSSchool/tree/news-api)
 
-## Courses:
-* The Rolling Scopes School JS/FE Pre-School 2024Q2 (JavaScript)
-* HTML and hosting;
-* Basic HTML & CSS;
-* Wordpress.
+### Additional GitHub Projects
+* [CommerceTools: Product & Cart Service](https://github.com/feafania/CommerceTools)
+* [IT-Incubator: Backend Course Projects](https://github.com/feafania/Incubator)
 
-## Languages:
-* Belarusian (native);
-* English (B2, I've been living in the UK for 7 months);
-* Polish (B2).
+## Education
+* Yanka Kupala State University of Hrodna — **Economic Cybernetics** (specialization: Software Engineering & Technologies)
+* Belarusian State University — Postgraduate Studies in **Mathematical Cybernetics**
+* Institute of Postgraduate Education — **English Language Teaching Qualification**
 
-## Code Examples:
-* **JavaScript**:
+## Courses
+* The Rolling Scopes School — JS/FE Pre-School 2024Q2 (JavaScript)
+* The Rolling Scopes School — JS/FE EN 2024Q4 (JavaScript)
+* IT-Incubator — Backend (in progress)
 
-```
-     function rgb(r, g, b) {
-        function formattedString(b) {
-            if (b.length === 1) {return `0${b.toUpperCase()}`}
-            else {return b.toUpperCase()};
-        }
-        function roundNumber(b) {
-          return Math.min(Math.max(b,0),255)
-        }
-        return `${formattedString(roundNumber(r).toString(16))}${formattedString(roundNumber(g).toString(16))}${formattedString(roundNumber(b).toString(16))}`;
+## Languages
+* Belarusian (native)
+* English (B2)
+* Polish (B2)
+
+## Code Examples
+
+### JavaScript
+```javascript
+function rgb(r, g, b) {
+    function formattedString(b) {
+        if (b.length === 1) {return `0${b.toUpperCase()}`}
+        else {return b.toUpperCase()};
     }
-
-* **Procedures 1c**:
+    function roundNumber(b) {
+      return Math.min(Math.max(b,0),255)
+    }
+    return `${formattedString(roundNumber(r).toString(16))}${formattedString(roundNumber(g).toString(16))}${formattedString(roundNumber(b).toString(16))}`;
+}
 ```
 
-```
+### Procedures 1c
+```1c
 // ConvertCharset(InputFile, OutputFile, InitialEncoding = "utf-8", FinalEncoding = "windows-1251")
 //
 // Options:
